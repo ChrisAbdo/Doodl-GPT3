@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dark {
+    @apply bg-black text-white;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      background-color: #fff;
+      color: #000;
+    }
+    to {
+      background-color: #000;
+      color: #fff;
+    }
+  }
